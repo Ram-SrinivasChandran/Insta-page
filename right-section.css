@@ -1,0 +1,121 @@
+.right-section{
+  position: relative;
+  padding-top: 55px;
+  padding-left: 35px;
+  padding-right: 45px;
+  visibility: visible;
+}
+.account{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.name-tag1,
+.name-tag2{
+  font-size: 15px;
+  cursor: pointer;
+}
+.name-tag1{
+  font-weight: bold;
+}
+.name-tag2{
+  color: gray;
+}
+.account-switch{
+  
+  font-size: 12px;
+  color: blue;
+  cursor: pointer;
+}
+.my-profile-pic{
+  width: 55px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.name{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 140px;
+}
+.sugesstion{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.one{
+  font-size: 14px;
+  color: gray;
+}
+.two{
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.sugesstion-head{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.request1{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.profile-image{
+  width: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.name-mutual{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.request-name{
+  font-size: 14px;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+.request-mutual{
+  font-size: 12px;
+  color: gray;
+}
+.profile-image-box{
+  padding-top: 5px;
+  padding-left: 5px;
+  margin-right: 10px;
+}
+.follow-button{
+  font-size: 12px;
+  color: blue;
+  cursor: pointer;
+}
+.insta-features {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+}
+.insta-features1{
+  display: flex;
+  align-items: center;
+}
+.insta-features div,
+.insta-features1 div{
+  font-size: 12px;
+}
+.dot{
+  margin-left:2px;
+  margin-right: 2px;
+  padding-bottom: 5px;
+}
+.copyright{
+  margin-top: 17px;
+  font-size: 12px;
+}
+.extra:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}

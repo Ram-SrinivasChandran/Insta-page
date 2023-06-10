@@ -1,0 +1,397 @@
+.sidebar{
+  position:fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  bottom:0;
+  width: 245px;
+  display: flex;
+  flex-direction: column;
+  border-right: 0.7px;
+  border-right-style: solid;
+  border-right-color: rgb(209, 205, 205);
+  visibility: visible;
+  transition: visibility 0.50s;
+}
+.sidebar1{
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 70px;
+  z-index: 2;
+  border-right: 0.7px;
+  border-right-style: solid;
+  border-right-color: rgb(209, 205, 205);
+  visibility: hidden;
+  transition: visibility 0.50s;
+}
+.downbar{
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  height: 50px;
+  visibility: hidden;
+  transition:visibility 0.50s;
+  border-top: 0.7px;
+  background-color: white;
+  border-top-style: solid;
+  border-top-color: rgb(209, 205, 205);
+}
+.topbar{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  right: 0;
+  left: 0;
+  top: 0;
+  height: 60px;
+  border-bottom: 0.7px;
+  background-color: white;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(209, 205, 205);
+  visibility: hidden;
+  transition:visibility 0.50s;
+}
+@media(max-width:1265px)
+{
+  .sidebar{
+    visibility: hidden;
+  }
+  .sidebar1{
+    visibility: visible;
+  }
+  .downbar{
+    visibility: hidden;
+  }
+  .topbar{
+    visibility: hidden;
+  }
+  body{
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .story{
+    width: 654px;
+  }
+}
+@media(max-width:770px){
+  .sidebar{
+    visibility:hidden;
+  }
+  .sidebar1{
+    visibility: hidden;
+  }
+  .downbar{
+    visibility:visible;
+  }
+  .topbar{
+    visibility: visible;
+  }
+  body{
+    padding-top: 35px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .story{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+.section{
+  display: flex;
+  height: 45px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  flex-shrink: 0;
+}
+.section:hover,
+.more-options:hover{
+  background-color: rgb(235, 230, 230);
+  border-radius: 8px;
+}
+.icon-box{
+  width: 40px;
+}
+.describe{
+  flex: 1;
+  font-weight: 500;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+.logo-image{
+  cursor: pointer;
+}
+.icon{
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  padding-top: 2px;
+}
+.home-icon{
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.search-icon{
+  width: 35px;
+  height: 35px;
+  padding-top: 2px;
+  padding-left: 3px;
+  object-fit: contain;
+}
+.explore-icon{
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.reels-icon{
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  padding-top: 12px;
+  padding-left: 10px;
+}
+.notify-icon{
+  width: 23px;
+  height: 23px;
+  object-fit: contain;
+  padding-top: 10px;
+  padding-left: 9px;
+}
+.create-icon{
+  width: 35px;
+  height: 40px;
+  object-fit: contain;
+  padding-left: 3px;
+  padding-top: 3px;
+}
+.my-profile{
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 15px;
+  margin-left: 8px;
+  margin-top: 10px;
+}
+.more-options{
+  height: 40px;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.menu{
+  width: 30px;
+  height: 40px;
+  object-fit: contain;
+  padding-left: 5px;
+}
+.more{
+  padding-top: 12px;
+  padding-left: 12px;
+  font-weight: 500;
+}
+.insta-logo{
+  width: 30px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 45px;
+  cursor: pointer;
+}
+.section{
+  display: flex;
+  height: 45px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.section:hover,
+.more-options:hover{
+  background-color: rgb(235, 230, 230);
+  border-radius: 8px;
+}
+.icon-box{
+  width: 40px;
+}
+.icon{
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  padding-top: 2px;
+}
+.home-icon{
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.search-icon{
+  width: 35px;
+  height: 35px;
+  padding-top: 2px;
+  padding-left: 3px;
+  object-fit: contain;
+}
+.explore-icon{
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.reels-icon{
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  padding-top: 12px;
+  padding-left: 10px;
+}
+.notify-icon{
+  width: 23px;
+  height: 23px;
+  object-fit: contain;
+  padding-top: 10px;
+  padding-left: 9px;
+}
+.create-icon{
+  width: 35px;
+  height: 40px;
+  object-fit: contain;
+  padding-left: 3px;
+  padding-top: 3px;
+}
+.my-profile{
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 15px;
+  margin-left: 8px;
+  margin-top: 10px;
+}
+.more-options{
+  height: 40px;
+  display: flex;
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+.menu{
+  width: 30px;
+  height: 40px;
+  object-fit: contain;
+  padding-left: 5px;
+}
+.down{
+  width: 40px;
+}
+.home-button{
+  width: 40px;
+  cursor: pointer;
+  transition: width 0.15s;
+}
+.home-button:hover{
+  width: 42px;
+}
+.explore-button{
+  width: 40px;
+  cursor: pointer;
+  transition: width 0.15s;
+}
+.explore-button:hover{
+  width: 42px;
+}
+.reels-button{
+  width: 20px;
+  height: 20px;
+  padding-left: 10px;
+  cursor: pointer;
+  transition: width 0.15s;
+}
+.reels-button:hover{
+  width:21px;
+}
+.create-button{
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  transition: width 0.15s;
+}
+.create-button:hover{
+  width:36px;
+}
+.message-button{
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: width 0.15s;
+}
+.message-button:hover{
+  width:41px;
+}
+.profile-button{
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: width 0.15s;
+}
+.profile-button:hover{
+  width:26px;
+}
+.first{
+  flex: 1;
+  padding-left: 10px;
+}
+.instagram{
+  width: 110px;
+}
+.search-bar-section{
+  display: flex;
+  width: 280px;
+}
+.search-button{
+  width: 20px;
+  height: 20px;
+  background-color:rgb(209, 205, 205) ;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  padding-left: 10px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.search-bar{
+  border: none;
+  width: 220px;
+  background-color:rgb(209, 205, 205) ;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.notification-section{
+  width: 40px;
+  cursor: pointer;
+}
+.notify-button{
+  width:25px;
+  transition: width 0.15s;
+}
+.notify-button:hover{
+  width: 26px;
+}
