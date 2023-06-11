@@ -1,0 +1,13 @@
+.body-part{
+  display: grid;
+  grid-template-columns: 1fr 385px;
+}
+@media(max-width:1160px){
+  .body-part{
+    grid-template-columns: 1fr;
+  }
+  .right-section{
+    visibility: hidden;
+  }
+  
+}
